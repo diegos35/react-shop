@@ -11,3 +11,7 @@ Dentro de public y de src creamos index.js
 
 Dentro src creamos carpeta componentes
 Dentro de components creamos archivos App.jsx
+
+** Shotcut **
+imr 
+slr (stateless componet)
