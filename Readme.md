@@ -18,3 +18,9 @@ slr (stateless componet)
 
 instalacion de babel para que el código sirva en cualquier navegador
 npm install @babel/core @babel/preset-env @babel/preset-react 
+
+***Instalacion de Webpack******
+npm install webpack webpack-cli webpack-dev-server 
+webpack y webpack-cli ⇒ bundler del proyecto
+
+webpack-dev-server ⇒ inicializar un servidor en local para mostrar en modo producción o desarrollo nuestra aplicación
