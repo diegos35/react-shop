@@ -11,5 +11,9 @@
     "javascript"
   ],
   "author": "diego caviedes <diego_1996.c.c@hotmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
 }
