@@ -15,3 +15,6 @@ Dentro de components creamos archivos App.jsx
 ** Shotcut **
 imr 
 slr (stateless componet)
+
+instalacion de babel para que el código sirva en cualquier navegador
+npm install @babel/core @babel/preset-env @babel/preset-react 
