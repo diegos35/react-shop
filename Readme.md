@@ -41,3 +41,6 @@ Archivos de configuración
 
 instalar Css y Sass
 1. npm i mini-css-extract-plugin css-loader style-loader sass sass-loader -D
+
+para colocar la imagen 
+npm i -D file-loader
