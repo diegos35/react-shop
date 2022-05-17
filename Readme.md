@@ -44,3 +44,6 @@ instalar Css y Sass
 
 para colocar la imagen 
 npm i -D file-loader
+
+para instalar router en react
+npm install react-router-dom
