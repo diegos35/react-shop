@@ -38,3 +38,6 @@ webpack-dev-server ⇒ inicializar un servidor en local para mostrar en modo pro
 loaders y plugin ⇒ sirven para optimizar o extraer html de los archivos (i.e React)
 
 Archivos de configuración
+
+instalar Css y Sass
+1. npm i mini-css-extract-plugin css-loader style-loader sass sass-loader -D
