@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/RecoveryPassword.scss';
+//import iconEmail from '../../public/assets/icons/email.svg';
 
 const RecoveryPassword = () => {
   return (
