@@ -47,3 +47,19 @@ npm i -D file-loader
 
 para instalar router en react
 npm install react-router-dom
+
+****ATOMIC DESING***
+<!-- Átomos -->:
+Representación de pequeños elementos o unidades
+Botón, texto, imagen, etc.
+<!-- Molécula -->
+Es la uniónde átomos .
+Texto + imagen, etc.
+<!-- Organismo -->
+Es la unión de moléculas
+Un header: logo + nav + buscador
+<!-- Templates: -->
+Es la unión de organismos de forma estructurada formando una sección
+Home, about, etc.
+<!-- Page: -->
+Es la combinación del template, API e interacciones del usuario.
