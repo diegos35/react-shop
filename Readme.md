@@ -63,3 +63,6 @@ Es la unión de organismos de forma estructurada formando una sección
 Home, about, etc.
 <!-- Page: -->
 Es la combinación del template, API e interacciones del usuario.
+
+npm install axios
+npm install @babel/plugin-transform-runtime
