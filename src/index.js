@@ -1,8 +1,13 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './routes/App'; //component
+
+ReactDOM.render(<App />, document.getElementById('app'));
 /* HOOC = HIGH  ORDER Component(componentes de orden superio) */
-import React, {Component} from 'react';
+//import React, {Component} from 'react';
 
 
-//Versiones anteriores
+//Versiones anteriores HOOC: HIGH  ORDER Component
 /* function ComponentWrapper(WrapperComponent){
     
     class Component extends Component{
