@@ -66,3 +66,10 @@ Es la combinación del template, API e interacciones del usuario.
 
 npm install axios
 npm install @babel/plugin-transform-runtime
+
+useContext
+Context es una herramienta para pasar propiedades en un arbol de componentes de arriba hacia abjo sin tener que pasar por componentes intermedios.
+
+Par usar context debemos importar dos cosas:
+createContext -> Permite crear el contexto
+useContext -> Este hook nos va permitir uusar contextos dentro de los componentes
