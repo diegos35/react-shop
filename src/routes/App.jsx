@@ -15,7 +15,6 @@ import Home from '../pages/Home';
 
 import AppContext from '../context/AppContext';
 import useInitialState from '../hooks/useInitialState';
-import useInitialState from '../hooks/useInitialState';
 
 const App = () => {
 
