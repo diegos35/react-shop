@@ -8,9 +8,14 @@ import shoppingCart from '@icons/icon_shopping_cart.svg';
 import Menu from '@components/Menu';
 import AppContext from '../context/AppContext';
 
+import MyOrder from '../containers/MyOrder';
+
 const Header = () => {
 	const [toggle, setToggle] = useState(false);
-	const { state } = useContext(AppContext);
+	const { state } = useContext(AppContext);	
+
+	const [toggleOrders, setToggleOrders] = useState(false);
+
 
 	const verifyCart = (cartNumber) => {
 		if (cartNumber && (cartNumber > 9)) {
@@ -54,15 +59,19 @@ const Header = () => {
 					<li className="navbar-email" onClick={handleToggle}>
 						platzi@example.com
 					</li>
-					<li className="navbar-shopping-cart">
-						<img src={shoppingCart} alt="shopping cart" />
-						{state.cart.length > 0 && <div>{verifyCart(state.cart.length)}</div>}
-						{/* {state.cart.length && <div>{state.cart.length}</div>} */}
-						{/* {state.cart.length > 0 && <div>{state.cart.length}</div>} */}
+					<li 
+						className="navbar-shopping-cart" 
+						onClick={() => setToggleOrders(!toggleOrders)} //anonimo() => Para que cada vez que se ejecute 
+						>
+							<img src={shoppingCart} alt="shopping cart" />
+							{state.cart.length > 0 && <div>{verifyCart(state.cart.length)}</div>}
+							{/* {state.cart.length && <div>{state.cart.length}</div>} */}
+							{/* {state.cart.length > 0 && <div>{state.cart.length}</div>} */}
 					</li>
 				</ul>
 			</div>
 			{toggle ? <Menu /> : ""}
+			{toggleOrders && <MyOrder/>}
 		</nav>
 	);
 }

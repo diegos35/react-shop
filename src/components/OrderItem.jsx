@@ -1,7 +1,10 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import '../styles/OrderItem.scss';
+import closeImage from '@icons/icon_close.png'
+import AppContext from '../context/AppContext';
 
 const OrderItem = () => {
+	const {state} = useContext(AppContext); //obtnemos el state 
 	return (
 		<div className="OrderItem">
 			<figure>
@@ -9,7 +12,7 @@ const OrderItem = () => {
 			</figure>
 			<p>Bike</p>
 			<p>$30,00</p>
-			<img src="./icons/icon_close.png" alt="close" />
+			<img src={closeImage} alt="close" />
 		</div>
 	);
 }
